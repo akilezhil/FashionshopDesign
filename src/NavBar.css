@@ -1,0 +1,18 @@
+.nav{
+    background-color: #CC0066;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav1{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-right: 30px;
+}
+.navh{
+    padding-left: 20px;
+}
