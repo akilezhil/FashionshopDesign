@@ -6,12 +6,11 @@ function Company() {
             getItems()
 
         },[])
-    
-
+     
     async function getItems(){
         const data = await fetch("https://fakestoreapi.com/products")
         const variable = await data.json()
-        setItems(variable)
+        setItems(variable) 
     }
   return (
     <div>

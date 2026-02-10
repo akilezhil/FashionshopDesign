@@ -1,8 +1,8 @@
 import NavBar from "./NavBar"
 import Banner from "./components/Banner"
 import Shopitem from "./components/Shopitem"
+import Detail from "./components/Detail"
 import Footer from "./components/Footer"
-
 // import Company from "./comp/Company"
 // import Product from "./comp/Product"
 
@@ -12,9 +12,11 @@ const App = () => {
     return (
         <>
             <NavBar/>
+            <Detail/>
             <Banner/>
             <Shopitem/>
             <Footer/> 
+          
             {/* <Products/> */}
            {/* <Product/> 
             {/* <Company/> */}
